@@ -3,7 +3,7 @@ import React from "react";
 const Working = () => {
   return (
     <div className="px-12 relative -top-28">
-      <div className="flex flex-row justify-center gap-x-14 items-center">
+      <div className="flex flex-row justify-center gap-x-14 items-center mx-28">
         <div className="w-2/5 justify-center relative mx-12">
           <img alt="" src="maskgroup.png" className="w-[320px] h-[360px] -z-10 relative top-48 border-4 border-white right-0 left-28" />
           <img alt="" src="image8.png" className="w-[320px] border-4 border-white h-[360px] relative right-28 left-0 bottom-0"/>
