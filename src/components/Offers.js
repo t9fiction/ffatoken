@@ -4,8 +4,9 @@ const Offers = () => {
   return (
     <div className="py-16 px-[25%] mx-auto flex flex-col text-center">
       <h3 className="text-primary uppercase">our offer</h3>
-      <h2 className="text-3xl uppercase py-4 font-semibold">Farming for all</h2>
-      <p className="py-2">
+      <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide">Farming for all</h2>
+      <img alt="crop" src="carbon_crop-growth.png" className="w-[77px] h-[77px] mx-auto" />
+      <p className="py-5">
         We offer small investors to participate in large agricultural projects
         by using the process of tokenization — a secure and efficient way of
         investing in the agricultural sector. We are committed to democratizing

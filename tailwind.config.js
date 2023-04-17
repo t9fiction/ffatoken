@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        aokupro: ["AokuPro-Regular", "sans-serif"],
         // rubik: ["Rubik Wet Paint", "cursive"],
         // nova: ["Nova Flat", "cursive"],
       },
