@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="text-white bg-secondary w-full h-49 z-20">
-      <div className="flex flex-row justify-between px-[100px] h-[112px] py-[41px] items-center flex-1 fixed top-4 left-0 right-0">
+    <div className="text-white bg-transparent w-full h-49 z-20">
+      <div className="flex flex-row justify-between px-[100px] h-[112px] py-[41px] space-x-12 items-center flex-1 absolute">
         <div>
           <a href="/">
             <img
