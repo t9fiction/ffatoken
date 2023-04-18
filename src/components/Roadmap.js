@@ -1,5 +1,7 @@
 import React from "react";
 import Design from "./Design";
+import Timeline from "./Timeline";
+import Timeline2 from "./Timeline2";
 
 const Roadmap = () => {
   return (
@@ -14,6 +16,24 @@ const Roadmap = () => {
         src="shapes.png"
         className="absolute right-0 left-0 -z-10"
       />
+      <div className="py-16  mx-auto flex flex-col">
+        <div className="text-center px-[25%]">
+          <h3 className="text-primary uppercase">our journey</h3>
+          <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide text-white">
+            Roadmap
+          </h2>
+          <p className="py-5 text-white">
+            Here is the roadmap for bringing our idea to life! We have carefully
+            planned out the steps necessary to make it happen and are eager to
+            take action. With your support and dedication, we believe we can
+            achieve our goals, bring something truly amazing to the world and
+            share our success with you, our investors. We invite you to join us
+            on this journey.
+          </p>
+        </div>
+        {/* <Timeline /> */}
+        <Timeline2 />
+      </div>
       <div className="-z-20 relative">
         <Design />
       </div>
