@@ -3,8 +3,8 @@ import React from "react";
 const Working = () => {
   return (
     <div className="bg-white">
-      <div className="px-12 relative -top-28 bg-white">
-        <div className="flex flex-row justify-center gap-x-14 items-center mx-28">
+      <div className="px-12 relative">
+        <div className="flex flex-row justify-center gap-x-14 bottom-20 relative items-center mx-28">
           <div className="w-2/5 justify-center relative mx-12">
             <img
               alt=""
