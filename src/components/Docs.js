@@ -2,7 +2,7 @@ import React from 'react'
 
 const Docs = () => {
   return (
-    <div className=''>Docs</div>
+    <div className='text-primary'>Docs</div>
   )
 }
 
