@@ -240,8 +240,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-3 h-3 bg-white rounded-full"></div>
+                <div class="flex items-center justify-center w-6 h-6 border-2 border-transparent bg-primary rounded-full">
+                  <div class="w-4 h-4 bg-white rounded-full"></div>
                 </div>
               </div>
             </div>
