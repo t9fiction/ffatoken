@@ -7,6 +7,7 @@ import Working from "./components/Working";
 import Roadmap from "./components/Roadmap";
 import Mission from "./components/Mission";
 import Tokenomics from "./components/Tokenomics";
+import Team from "./components/Team";
 function App() {
   return (
     <div className="">
@@ -17,6 +18,7 @@ function App() {
       <Roadmap />
       <Mission />
       <Tokenomics />
+      <Team />
       <Docs />
     </div>
   );
