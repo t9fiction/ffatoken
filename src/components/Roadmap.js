@@ -1,6 +1,5 @@
 import React from "react";
 import Design from "./Design";
-import Timeline from "./Timeline";
 import Timeline2 from "./Timeline2";
 
 const Roadmap = () => {

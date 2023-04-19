@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
 import Working from "./components/Working";
 import Roadmap from "./components/Roadmap";
+import Mission from "./components/Mission";
+import Tokenomics from "./components/Tokenomics";
 function App() {
   return (
     <div className="">
@@ -13,6 +15,8 @@ function App() {
       <Offers />
       <Working />
       <Roadmap />
+      <Mission />
+      <Tokenomics />
       <Docs />
     </div>
   );
