@@ -42,19 +42,19 @@ const Team = () => {
                                 transition-opacity duration-300 space-x-3 mt-2"
                     >
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaFacebookF className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaTwitter className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaInstagram className="z-10" />
                         </div>
                       </a>
@@ -84,19 +84,19 @@ const Team = () => {
                                 transition-opacity duration-300 space-x-3 mt-2"
                     >
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaFacebookF className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaTwitter className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaInstagram className="z-10" />
                         </div>
                       </a>
@@ -128,19 +128,19 @@ const Team = () => {
                                 transition-opacity duration-300 space-x-3 mt-2"
                     >
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaFacebookF className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaTwitter className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaInstagram className="z-10" />
                         </div>
                       </a>
@@ -172,19 +172,19 @@ const Team = () => {
                                 transition-opacity duration-300 space-x-3 mt-2"
                     >
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaFacebookF className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaTwitter className="z-10" />
                         </div>
                       </a>
 
                       <a href="#" className="">
-                        <div className=" w-8 h-8 bg-gray-200 rounded-full text-blue-600 flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
+                        <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                           <FaInstagram className="z-10" />
                         </div>
                       </a>
