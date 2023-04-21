@@ -12,7 +12,7 @@ const Team = () => {
             <div className="flex flex-wrap justify-center text-center mb-4">
               <div className="w-full lg:w-6/12 px-4">
                 <h3 className="text-primary uppercase">meet us</h3>
-                <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide">
+                <h2 className="text-4xl py-4 font-semibold font-aokupro tracking-wider">
                   our team
                 </h2>
               </div>

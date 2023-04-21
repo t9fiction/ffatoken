@@ -18,7 +18,7 @@ const Roadmap = () => {
       <div className="py-16  mx-auto flex flex-col">
         <div className="text-center px-[25%]">
           <h3 className="text-primary uppercase">our journey</h3>
-          <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide text-white">
+          <h2 className="text-4xl  py-4 font-semibold font-aokupro tracking-widest text-white">
             Roadmap
           </h2>
           <p className="py-5 text-white">
