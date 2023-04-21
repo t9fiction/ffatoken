@@ -8,6 +8,8 @@ import Roadmap from "./components/Roadmap";
 import Mission from "./components/Mission";
 import Tokenomics from "./components/Tokenomics";
 import Team from "./components/Team";
+import Contactus from "./components/Contactus";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="">
@@ -20,6 +22,8 @@ function App() {
       <Tokenomics />
       <Team />
       <Docs />
+      <Contactus />
+      <Footer />
     </div>
   );
 }

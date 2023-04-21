@@ -16,8 +16,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-6 h-6 bg-primary rounded-full">
-                  <div class="w-3 h-3 bg-secondary rounded-full"></div>
+                <div class="flex items-center justify-center w-4 h-4 hover:w-6 ease-in-out duration-500 hover:h-6 bg-primary rounded-full">
+                  <div class="hover:w-4 hover:h-4 w-3 h-3 ease-in-out duration-300 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -41,8 +41,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="items-start flex">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent  bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent  bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -67,8 +67,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -93,8 +93,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -120,8 +120,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-6 h-6 bg-primary rounded-full">
-                  <div class="w-3 h-3 bg-secondary rounded-full"></div>
+                <div class="flex items-center justify-center w-4 h-4 hover:w-6 ease-in-out duration-500 hover:h-6 bg-primary rounded-full">
+                  <div class="hover:w-4 hover:h-4 w-3 h-3 ease-in-out duration-300 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -145,8 +145,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -171,8 +171,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -197,8 +197,8 @@ const Timeline2 = () => {
           <div class="relative w-4/6 flex justify-start">
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
-                <div class="flex items-center justify-center w-4 h-4 border-2 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 bg-secondary rounded-full"></div>
+                <div class="flex items-center ease-in-out duration-500 justify-center w-4 h-4 border-2 hover:w-6 hover:h-6 border-transparent bg-primary rounded-full">
+                  <div class="w-2 h-2 hover:w-4 hover:h-4 ease-in-out duration-500 bg-secondary rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>

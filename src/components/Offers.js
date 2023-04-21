@@ -2,7 +2,7 @@ import React from "react";
 
 const Offers = () => {
   return (
-    <div className="py-16 px-[25%] mx-auto flex flex-col text-center bg-white z-10">
+    <div className="py-16 px-[25%] mx-auto flex flex-col text-center bg-white z-10 flex-1">
       <h3 className="text-primary uppercase">our offer</h3>
       <h2 className="text-4xl py-4 font-semibold font-aokupro tracking-wide">Farming for <span className="uppercase">all</span> </h2>
       <img alt="crop" src="carbon_crop-growth.png" className="w-[77px] h-[77px] mx-auto" />
