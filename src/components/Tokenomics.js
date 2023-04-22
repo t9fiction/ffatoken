@@ -1,4 +1,5 @@
 import React from "react";
+import DonutChart from './DonutChart'
 
 const Tokenomics = () => {
   return (
@@ -13,7 +14,8 @@ const Tokenomics = () => {
         and usage
       </p>
       <div className="justify-center flex pt-8">
-        <img alt="chart" src="PIECHART.png" className="w-[80%]" />
+        <DonutChart />
+        {/* <img alt="chart" src="PIECHART.png" className="w-[80%]" /> */}
       </div>
     </div>
   );
