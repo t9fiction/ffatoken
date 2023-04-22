@@ -1,9 +1,11 @@
 import React from "react";
+import Skyanimation from "./Skyanimation";
 
 const Docs = () => {
   return (
     <>
-      <div className=" mx-auto flex flex-col text-center bg-[#51bce9] bg-opacity-60 -z-30 relative">
+      <div className=" mx-auto flex flex-col text-center bg-[#51bce9] -z-30 relative">
+        <Skyanimation />
         <div className="py-28 px-[25%]">
           <h2 className="text-4xl py-4 font-semibold font-aokupro tracking-wide text-white z-10">
             documents
@@ -16,16 +18,6 @@ const Docs = () => {
             </p>
             <div className="w-1/2"></div>
           </div>
-        </div>
-        <div className="absolute -z-10">
-          <img src="docs.png" alt="docs" className="w-screen relative" />
-        </div>
-        <div className="absolute -z-10 ">
-          <img
-            src="shapes_docs.png"
-            alt="shapes"
-            className="w-screen relative"
-          />
         </div>
       </div>
     </>
