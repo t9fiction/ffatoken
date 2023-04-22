@@ -1,6 +1,7 @@
 import React from "react";
 import Design from "./Design";
 import Timeline2 from "./Timeline2";
+import Skyanimation from "./Skyanimation";
 
 const Roadmap = () => {
   return (
@@ -10,11 +11,12 @@ const Roadmap = () => {
         src="universe.png"
         className="-z-30 absolute right-0 left-0"
       />
-      <img
+      {/* <img
         alt="universe"
         src="shapes.png"
         className="absolute right-0 left-0 -z-10"
-      />
+      /> */}
+      <Skyanimation />
       <div className="py-16  mx-auto flex flex-col">
         <div className="text-center px-[25%]">
           <h3 className="text-primary uppercase">our journey</h3>
