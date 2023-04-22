@@ -20,9 +20,9 @@ const Skyanimation = () => {
           /* ... */
         }}
         how={
-          60
+          40
         } /* Pass the number of images Sky will render chosing randomly */
-        time={40} /* time of animation */
+        time={300} /* time of animation */
         size={"30px"} /* size of the rendered images */
         background={"palettedvioletred"} /* color of background */
       />
