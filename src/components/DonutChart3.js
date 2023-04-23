@@ -26,7 +26,6 @@ const DonutChart3 = () => {
       position: "right",
       alignment: "center",
       textStyle: {
-        fontName:'Roboto',
         color: "233238",
         fontSize: 14,
       },
@@ -40,7 +39,7 @@ const DonutChart3 = () => {
     //     width: '100%',
     //     height: '70%',
     // },
-    fontName: "Roboto",
+    fontName: "aokupro",
     fontSize: 14,
   };
 

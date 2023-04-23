@@ -5,7 +5,7 @@ import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Team = () => {
   return (
-    <div className="flex items-center justify-center bg-white py-12">
+    <div className="flex items-center justify-center bg-white pb-12">
       <div className="flex flex-col">
         <div className="flex flex-col">
           <div className="container max-w-7xl px-4">
