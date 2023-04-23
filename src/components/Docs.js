@@ -21,7 +21,7 @@ const Docs = () => {
                   <HiOutlineDocumentText size={30} />
                 </div>
                 <div className="uppercase font-semibold text-sm text-white underline">
-                  <a href="#" className="hover:cursor-pointer">
+                  <a href="https://drive.google.com/file/d/1awf_LQNfTE9gFcCD8jENOablk8F0zUMj/view?usp=sharing" className="" target="_blank" rel="noreferrer">
                     Download whitepaper
                   </a>
                 </div>
@@ -31,7 +31,7 @@ const Docs = () => {
                   <HiOutlineDocumentText size={30} />
                 </div>
                 <div className="uppercase font-semibold text-sm text-white underline">
-                  <a href="#" className="hover:cursor-pointer">
+                  <a href="https://drive.google.com/file/d/1awf_LQNfTE9gFcCD8jENOablk8F0zUMj/view?usp=sharing" className="" target="_blank" rel="noreferrer">
                     download smart contract
                   </a>
                 </div>
