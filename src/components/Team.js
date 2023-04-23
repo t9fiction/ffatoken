@@ -17,7 +17,6 @@ const Team = () => {
                 </h2>
               </div>
             </div>
-
             <div className="flex flex-wrap">
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
                 <div className="flex flex-col">

@@ -4,9 +4,7 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 
 const Docs = () => {
   return (
-    <>
-      <div className=" mx-auto flex flex-col text-center bg-[#51bce9] -z-30 relative">
-        <Skyanimation />
+      <div className=" mx-auto flex flex-col text-center bg-[#51bce9] z-0 relative">
         <div className="py-28 px-[25%]">
           <h2 className="text-4xl py-4 font-semibold font-aokupro tracking-wide text-white z-10">
             documents
@@ -17,8 +15,8 @@ const Docs = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt
             </p>
-            <div className="w-1/2 py-5 space-y-4">
-              <div className="items-center flex space-x-4 z-20">
+            <div className="w-1/2 py-5 space-y-4 z-40">
+              <div className="items-center flex space-x-4">
                 <div className="text-white">
                   <HiOutlineDocumentText size={30} />
                 </div>
@@ -41,8 +39,8 @@ const Docs = () => {
             </div>
           </div>
         </div>
+        <Skyanimation />
       </div>
-    </>
   );
 };
 
