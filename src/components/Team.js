@@ -178,12 +178,10 @@ const Team = () => {
                         onClick={handleClick2}
                       >
                         <h1 className="text-[#212121] font-semibold">
-                          Miguel Cabeza
+                          Martin Orbegoso
                         </h1>
 
-                        <div className="text-[#616161] font-light">
-                          Founder & CEO
-                        </div>
+                        <div className="text-[#616161] font-light">CTO</div>
 
                         <div
                           className="flex items-center justify-center hover:opacity-100
@@ -258,11 +256,11 @@ const Team = () => {
                         onClick={handleClick3}
                       >
                         <h1 className="text-[#212121] font-semibold">
-                          Miguel Cabeza
+                          Carlos Samame
                         </h1>
 
                         <div className="text-[#616161] font-light">
-                          Founder & CEO
+                          Head of Finance
                         </div>
 
                         <div
@@ -338,11 +336,11 @@ const Team = () => {
                         onClick={handleClick4}
                       >
                         <h1 className="text-[#212121] font-semibold">
-                          Miguel Cabeza
+                          Martin Gavidia
                         </h1>
 
                         <div className="text-[#616161] font-light">
-                          Founder & CEO
+                          Head of Agriculture
                         </div>
 
                         <div
