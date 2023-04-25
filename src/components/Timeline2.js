@@ -17,7 +17,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center justify-center w-4 h-4 group-hover:w-6 ease-in-out duration-300 group-hover:h-6 bg-primary rounded-full">
-                  <div class="group-hover:w-4 group-hover:h-4 w-3 h-3 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="group-hover:w-4 group-hover:h-4 w-3 h-3 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full group-hover:border-secondary group-hover:border-2"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -42,7 +42,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="items-start flex">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent  bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:border-secondary group-hover:border-2 group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -68,7 +68,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:border-secondary group-hover:border-2 group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -94,7 +94,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:border-secondary group-hover:border-2 group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -121,7 +121,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center justify-center w-4 h-4 group-hover:w-6 ease-in-out duration-500 group-hover:h-6 bg-primary rounded-full">
-                  <div class="hover:w-4 hover:h-4 w-3 h-3 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="group-hover:w-4 group-hover:h-4 w-3 h-3 ease-in-out duration-300 group-hover:border-secondary group-hover:border-2 bg-secondary group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -146,7 +146,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:border-secondary group-hover:border-2 group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -172,7 +172,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:border-secondary group-hover:border-2 group-hover:bg-white rounded-full"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -198,7 +198,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center ease-in-out duration-300 justify-center w-4 h-4 border-2 group-hover:w-6 group-hover:h-6 border-transparent bg-primary rounded-full">
-                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full"></div>
+                  <div class="w-2 h-2 group-hover:w-4 group-hover:h-4 ease-in-out duration-300 bg-secondary group-hover:bg-white rounded-full group-hover:border-secondary group-hover:border-2"></div>
                 </div>
               </div>
               <div class="w-px h-12 bg-primary"></div>
@@ -241,7 +241,7 @@ const Timeline2 = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center justify-center w-6 h-6 border-2 border-transparent ease-in-out duration-300 bg-primary group-hover:bg-white rounded-full">
-                  <div class="w-4 h-4 bg-white group-hover:bg-primary rounded-full"></div>
+                  <div class="w-4 h-4 bg-white group-hover:bg-primary rounded-full group-hover:w-3 group-hover:h-3 group-hover:border-secondary ease-in-out duration-300 border-2"></div>
                 </div>
               </div>
             </div>
