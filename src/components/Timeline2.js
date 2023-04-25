@@ -6,7 +6,7 @@ const Timeline2 = () => {
     <section class="items-center">
       <div class="justify-center w-full px-4 py-4  ">
         {/* first event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             <h2 class="px-4  text-lg font-medium text-primary group-hover:underline">Phase - I</h2>
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -31,7 +31,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal text-white text-right group-hover:text-primary group-hover:font-bold ease-in-out duration-300">
@@ -57,7 +57,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -83,7 +83,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -110,7 +110,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             <h2 class="px-4  text-lg font-medium text-primary group-hover:underline">Phase - II</h2>
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -135,7 +135,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -161,7 +161,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal group-hover:text-primary text-white text-right group-hover:font-bold ease-in-out duration-300">
@@ -187,7 +187,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal text-white text-right group-hover:text-primary group-hover:font-bold ease-in-out duration-300">
@@ -213,7 +213,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal text-white text-right"></p>
@@ -230,7 +230,7 @@ const Timeline2 = () => {
         </div>
 
         {/* second event */}
-        <div className="flex flex-row group">
+        <div className="flex flex-row group hover:cursor-pointer">
           <div className="w-2/6 flex flex-row items-start justify-end">
             {/* <h2 class="px-4  text-lg font-medium text-primary">Phase - I</h2> */}
             <p class=" pl-10  text-base font-normal text-white text-right">
