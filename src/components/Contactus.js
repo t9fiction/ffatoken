@@ -3,7 +3,7 @@ import Skyanimation from "./Skyanimation";
 
 const Contactus = () => {
   return (
-    <div className="relative bg-black opacity-90 w-full py-20">
+    <div className="relative bg-black opacity-90 w-full py-20 ">
       <Skyanimation />
       {/* <img
         alt="universe"
@@ -18,7 +18,7 @@ const Contactus = () => {
       <div className=" mx-auto flex flex-col ">
         <div className="text-center px-[25%]">
           <h3 className="text-primary uppercase">any questions?</h3>
-          <h2 className="text-4xl  py-4 font-semibold font-aokupro tracking-widest text-white">
+          <h2 className="text-4xl  py-4  font-aokupro tracking-widest text-white">
             Contact us
           </h2>
           <p className="py-5 text-white">
@@ -30,51 +30,53 @@ const Contactus = () => {
         </div>
 
         {/* Start of the form */}
-        <form className="w-full py-12 space-y-4">
-          <div className="flex flex-wrap flex-row">
-            <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
-              <input
-                className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                id="name"
-                type="text"
-                placeholder="John Kennedy"
-              />
+        <div className="container px-[10%]">
+          <form className="w-full py-12 space-y-4">
+            <div className="flex flex-wrap flex-row">
+              <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+                <input
+                  className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  id="name"
+                  type="text"
+                  placeholder="John Kennedy"
+                />
+              </div>
+
+              <div className="w-full md:w-1/3 px-3">
+                <input
+                  className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  id="email"
+                  type="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div className="w-full md:w-1/3 px-3">
+                <input
+                  className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                  id="subject"
+                  type="subject"
+                  placeholder="Subject"
+                />
+              </div>
             </div>
 
-            <div className="w-full md:w-1/3 px-3">
-              <input
-                className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                id="email"
-                type="email"
-                placeholder="Email"
-              />
+            <div className="flex flex-wrap mb-2">
+              <div className="w-full px-3">
+                <textarea
+                  className=" no-resize appearance-none border-white focus:border-primary bg-transparent block w-full hover:border-primary text-gray-700 border  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white  h-48 resize-none"
+                  id="message"
+                ></textarea>
+              </div>
             </div>
-            <div className="w-full md:w-1/3 px-3">
-              <input
-                className="appearance-none block w-full bg-transparent text-gray-700 border focus:border-primary hover:border-primary border-white  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                id="subject"
-                type="subject"
-                placeholder="Subject"
-              />
+            <div className="md:flex md:items-center">
+              <div className="flex mx-auto">
+                <button className="py-2 text-[13px] font-semibold px-10 rounded-none border-2 border-primary hover:text-primary duration-300 ease-in-out uppercase bg-primary text-white hover:bg-white hover:border-primary">
+                  Submit
+                </button>
+              </div>
             </div>
-          </div>
-
-          <div className="flex flex-wrap mb-6">
-            <div className="w-full px-3">
-              <textarea
-                className=" no-resize appearance-none border-white focus:border-primary bg-transparent block w-full hover:border-primary text-gray-700 border  py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white  h-48 resize-none"
-                id="message"
-              ></textarea>
-            </div>
-          </div>
-          <div className="md:flex md:items-center">
-            <div className="flex mx-auto">
-              <button className="py-1 text-[13px] font-semibold px-10 rounded-none border-2 border-primary hover:text-primary duration-300 ease-in-out uppercase bg-primary text-white hover:bg-white hover:border-primary">
-                Submit
-              </button>
-            </div>
-          </div>
-        </form>
+          </form>
+        </div>
         {/* End of Form */}
       </div>
     </div>
