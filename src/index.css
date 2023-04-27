@@ -22,6 +22,9 @@
   .menuLinks{
     @apply hover:text-primary uppercase
   }
+  .navLinks{
+    @apply hover:text-white uppercase
+  }
 
   .altButton {
     @apply bg-white text-[#11101e] hover:text-white py-2 px-4 rounded-md border hover:border-white border-transparent duration-300 ease-in-out hover:bg-transparent;
@@ -30,4 +33,29 @@
   .aMenu {
     @apply px-2 py-1 hover:text-[#47b7e7] rounded-md duration-300 ease-in-out uppercase;
   }
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    90.39deg,
+    #ffffff -278.56%,
+    #11101e -78.47%,
+    #47b7e7 91.61%
+  );
+}
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
 }
