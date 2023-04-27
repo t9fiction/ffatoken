@@ -9,15 +9,15 @@ const Working = () => {
             <img
               alt=""
               src="maskgroup.png"
-              className="w-[320px] h-[360px] relative top-12 -right-10 md:top-32 border-4 border-white md:right-0 md:left-24"
+              className="w-[320px] h-[360px] relative top-16 -right-11 md:top-32 border-4 border-white md:right-0 md:left-24"
             />
             <img
               alt=""
               src="image8.png"
-              className="w-[320px] border-4 border-white h-[360px] relative -left-8 -top-20 sm:-top-28 md:top-0 md:right-28 md:left-0 md:bottom-16"
+              className="w-[320px] border-4 border-white h-[360px] relative -left-6 -top-20 sm:-top-28 md:top-0 md:right-28 md:left-0 md:bottom-16"
             />
           </div>
-          <div className="flex flex-col md:w-3/5 w-full space-y-4 mt-20">
+          <div className="flex flex-col md:w-3/5 w-full space-y-4 mt-12 md:mt-20">
             <p className="uppercase text-primary text-center md:text-left">more details</p>
             <h1 className="font-aokupro text-2xl text-center md:text-left md:text-3xl">How does it work?</h1>
             <p className="text-[16px] pt-2 sm:pt-4 md:pt-5 text-justify md:text-left">
