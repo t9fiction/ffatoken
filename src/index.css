@@ -33,6 +33,13 @@
   .aMenu {
     @apply px-2 py-1 hover:text-[#47b7e7] rounded-md duration-300 ease-in-out uppercase;
   }
+
+  
+}
+@media (max-width: 640px) {
+  .mobile-video {
+    @apply w-full h-[60vh] object-cover;
+  }
 }
 
 .bg-black-gradient {
