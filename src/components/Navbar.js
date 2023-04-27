@@ -74,7 +74,7 @@ const Navbar = () => {
       </div>
       {toggle && (
         <div className="md:hidden flex flex-1 absolute top-24 text-secondary py-12 left-0 right-0 items-center z-20">
-          <ul className="p-6 bg-black-gradient fixed top-24 ease-in-out right-0 mx-4 duration-300 my-2 min-w-[140px] rounded-xl sidebar flex flex-col space-y-8">
+          <ul className="p-6 bg-black-gradient absolute top-0 ease-in-out right-0 mx-4 duration-300 my-2 min-w-[140px] rounded-xl sidebar flex flex-col space-y-8">
             <li className="navLinks">
               <a onClick={handleClick} href="/">
                 HOME
