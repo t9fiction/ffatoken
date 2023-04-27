@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { RiMenuFoldLine } from 'react-icons/ri';
+import { RiMenuFoldLine } from "react-icons/ri";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -49,7 +50,7 @@ const Navbar = () => {
           <button className="connectBtn flex flex-1">CONNECT WALLET</button>
         </div>
       </div>
-      <div className="bg-transparent text-white h-24 flex flex-1 justify-between items-center md:hidden px-8">
+      <div className="absolute bg-transparent text-white h-24 flex flex-1 justify-between items-center md:hidden px-8 left-0 right-0">
         <div>
           <a href="/">
             <img
@@ -59,37 +60,59 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="text-black">
-          <button onClick={handleClick}>
-          <RiMenuFoldLine size={35} />
-          </button>
+        <div className="text-white">
+          {toggle ? (
+            <button onClick={handleClick}>
+              <RxCross1 size={35} />
+            </button>
+          ) : (
+            <button onClick={handleClick}>
+              <RiMenuFoldLine size={35} />
+            </button>
+          )}
         </div>
       </div>
       {toggle && (
         <div className="md:hidden flex flex-1 absolute top-24 text-secondary py-12 left-0 right-0 items-center z-20">
           <ul className="p-6 bg-black-gradient fixed top-24 ease-in-out right-0 mx-4 duration-300 my-2 min-w-[140px] rounded-xl sidebar flex flex-col space-y-8">
-              <li className="navLinks">
-                <a onClick={handleClick} href="/">HOME</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#about">ABOUT US</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#mission">MISSION</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#tokenomics">TOKENOMICS</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#team">TEAM</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#docs">DOCS</a>
-              </li>
-              <li className="navLinks">
-                <a onClick={handleClick} href="#contactus">CONTACT US</a>
-              </li>
-          <button className="border-[2px] border-secondary hover:border-white py-2 rounded-md px-4 hover:text-white">Connect Wallet</button>
+            <li className="navLinks">
+              <a onClick={handleClick} href="/">
+                HOME
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#about">
+                ABOUT US
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#mission">
+                MISSION
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#tokenomics">
+                TOKENOMICS
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#team">
+                TEAM
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#docs">
+                DOCS
+              </a>
+            </li>
+            <li className="navLinks">
+              <a onClick={handleClick} href="#contactus">
+                CONTACT US
+              </a>
+            </li>
+            <button className="border-[2px] border-white py-2 rounded-md px-4 text-white">
+              Connect Wallet
+            </button>
           </ul>
         </div>
       )}
