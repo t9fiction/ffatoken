@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="text-white bg-secondary body-font border-t-4 px-[10%] border-primary">
       <div className="py-5 flex justify-between md:flex-row flex-col items-center space-y-2">
-        <p className="text-[12px] md:text-[10px] text-white max-w-sm">
+        <p className="text-[12px] text-white max-w-sm">
           © 2023 by Farming for all. All Rights Reserved.
         </p>
         <a className="flex text-white md:pr-20" href="/">
