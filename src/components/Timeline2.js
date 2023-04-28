@@ -48,7 +48,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Finalize the FFA smart contract code and have it audited by a
                 reputable third-party auditing firm.
               </p>
@@ -74,7 +74,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Launch the FFA website, including the whitepaper, token
                 distribution plan, team information, and contact information.
               </p>
@@ -100,7 +100,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="transform group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <p class="transform group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Distribute FFA tokens to the Liquidity Pool, Incentives,
                 Treasury Shares, and Team, as outlined in the token distribution
                 plan.
@@ -152,7 +152,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Launch FFA token on major decentralized exchanges such as
                 Uniswap, PancakeSwap, and Quickswap, Shibaswap.
               </p>
@@ -178,7 +178,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <h2 class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <h2 class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Launch a marketing campaign to increase FFA token awareness and
                 interest among potential investors and users.
               </h2>
@@ -204,7 +204,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start">
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start">
                 Host a series of AMA sessions with the FFA team to answer
                 community questions and address concerns.
               </p>
@@ -224,7 +224,7 @@ const Timeline2 = () => {
               <div class="w-px h-12 bg-primary"></div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start"></p>
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start"></p>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ const Timeline2 = () => {
               </div>
             </div>
             <div>
-              <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start underline">
+              <p class="group-hover:text-white ease-in-out duration-300 px-0 max-w-lg min-w-lg  text-sm  text-primary justify-start underline">
                 <a href="#">
                 See All
                 </a>
