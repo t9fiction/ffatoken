@@ -3,14 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-white bg-secondary body-font border-t-4 px-[10%] border-primary">
-      <div className="py-5 flex  justify-between sm:flex-row flex-col items-center">
-        <p className="text-[10px] text-white ">
-          © 2023 All rights reserved. All Rights Reserved.
+      <div className="py-5 flex justify-between md:flex-row flex-col items-center space-y-2">
+        <p className="text-[12px] md:text-[10px] text-white max-w-sm">
+          © 2023 by Farming for all. All Rights Reserved.
         </p>
-        <a className="flex text-white pr-20" href="/">
+        <a className="flex text-white md:pr-20" href="/">
           <img src="./logo/logo_transparent.png" alt="" className="h-12" />
         </a>
-        <div className="inline-flex space-x-3">
+        <div className="inline-flex space-x-5">
           <div className="bg-white w-8 h-8 rounded-full text-center items-center flex justify-center">
             <a
               className="text-primary"
