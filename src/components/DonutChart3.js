@@ -1,5 +1,6 @@
 import React from "react";
 import { Chart } from "react-google-charts";
+import { useMediaQuery } from "@material-ui/core";
 
 const DonutChart3 = () => {
   const pieOptions = {
@@ -23,13 +24,14 @@ const DonutChart3 = () => {
       },
     ],
     legend: {
-      position: "right",
+      position: useMediaQuery("(max-width: 767px)") ? "top" : "right",
       alignment: "center",
       textStyle: {
         color: "233238",
         fontSize: 14,
       },
     },
+    
     tooltip: {
       showColorCode: true,
     },
@@ -55,18 +57,7 @@ const DonutChart3 = () => {
         height={"440px"}
         legend_toggle
       />
-      {/* Add media query to override legend position */}
-      <style jsx>{`
-        @media screen and (max-width: 640px) {
-          .google-visualization-chart-legend {
-            display: block !important;
-            position: relative;
-            left: auto !important;
-            right: auto !important;
-            top: -40px;
-          }
-        }
-      `}</style>
+      
     </div>
   );
 };
