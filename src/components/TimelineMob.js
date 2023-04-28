@@ -162,9 +162,8 @@ const TimelineMob = () => {
                 </div>
                 <div>
                   <p class="px-0 max-w-[300px] sm:max-w-lg  text-sm text-white justify-start ease-in-out duration-300  group-hover:text-primary">
-                    Distribute FFA tokens to the Liquidity Pool, Incentives,
-                    Treasury Shares, and Team, as outlined in the token
-                    distribution plan.
+                    Launch FFA token on major decentralized exchanges such as
+                    Uniswap, PancakeSwap, and Quickswap, Shibaswap.
                   </p>
                 </div>
               </div>
@@ -193,9 +192,8 @@ const TimelineMob = () => {
                 </div>
                 <div>
                   <p class="px-0 max-w-[300px] sm:max-w-lg  text-sm text-white justify-start ease-in-out duration-300  group-hover:text-primary">
-                    Distribute FFA tokens to the Liquidity Pool, Incentives,
-                    Treasury Shares, and Team, as outlined in the token
-                    distribution plan.
+                    Launch a marketing campaign to increase FFA token awareness
+                    and interest among potential investors and users.
                   </p>
                 </div>
               </div>
@@ -224,9 +222,8 @@ const TimelineMob = () => {
                 </div>
                 <div>
                   <p class="px-0 max-w-[300px] sm:max-w-lg  text-sm text-white justify-start ease-in-out duration-300  group-hover:text-primary">
-                    Distribute FFA tokens to the Liquidity Pool, Incentives,
-                    Treasury Shares, and Team, as outlined in the token
-                    distribution plan.
+                    Host a series of AMA sessions with the FFA team to answer
+                    community questions and address concerns.
                   </p>
                 </div>
               </div>
