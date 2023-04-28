@@ -23,7 +23,7 @@ const DonutChart3 = () => {
       },
     ],
     legend: {
-      position: "top", // set default position to top
+      position: "right",
       alignment: "center",
       textStyle: {
         color: "233238",
@@ -37,13 +37,8 @@ const DonutChart3 = () => {
     fontSize: 14,
   };
 
-  // conditional rendering of legend position based on screen size
-  const legendPosition = window.innerWidth >= 768 ? "right" : "top"; // adjust breakpoint as needed
-
-  pieOptions.legend.position = legendPosition; // set legend position
-
   return (
-    <div className="w-screen md:flex hidden">
+    <div className="w-full">
       <Chart
         chartType="PieChart"
         data={[
@@ -60,6 +55,18 @@ const DonutChart3 = () => {
         height={"440px"}
         legend_toggle
       />
+      {/* Add media query to override legend position */}
+      <style jsx>{`
+        @media screen and (max-width: 640px) {
+          .google-visualization-chart-legend {
+            display: block !important;
+            position: relative;
+            left: auto !important;
+            right: auto !important;
+            top: -40px;
+          }
+        }
+      `}</style>
     </div>
   );
 };
