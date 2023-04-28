@@ -23,7 +23,7 @@ const DonutChart3 = () => {
       },
     ],
     legend: {
-      position: "right",
+      position: "top", // set default position to top
       alignment: "center",
       textStyle: {
         color: "233238",
@@ -33,34 +33,34 @@ const DonutChart3 = () => {
     tooltip: {
       showColorCode: true,
     },
-    // chartArea: {
-    //     left: 0,
-    //     top: 0,
-    //     width: '100%',
-    //     height: '70%',
-    // },
     fontName: "aokupro",
     fontSize: 14,
   };
 
- 
+  // conditional rendering of legend position based on screen size
+  const legendPosition = window.innerWidth >= 768 ? "right" : "top"; // adjust breakpoint as needed
+
+  pieOptions.legend.position = legendPosition; // set legend position
+
   return (
-    <Chart
-                  chartType="PieChart"
-                  data={[
-                      ['Distribution', 'Share'],
-                      ['Incentives', 8],
-                      ['Burns', 7],
-                      ['Team', 15],
-                      ['Treasury', 20],
-                      ['Liquidity Pool', 50],
-                  ]}
-                  options={pieOptions}
-                  graph_id="PieChart"
-                  width={'100%'}
-                  height={'440px'}
-                  legend_toggle
-              />
+    <div className="w-screen md:flex hidden">
+      <Chart
+        chartType="PieChart"
+        data={[
+          ["Distribution", "Share"],
+          ["Incentives", 8],
+          ["Burns", 7],
+          ["Team", 15],
+          ["Treasury", 20],
+          ["Liquidity Pool", 50],
+        ]}
+        options={pieOptions}
+        graph_id="PieChart"
+        width={"100%"}
+        height={"440px"}
+        legend_toggle
+      />
+    </div>
   );
 };
 

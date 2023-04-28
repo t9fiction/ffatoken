@@ -4,8 +4,7 @@ import DonutChart3 from "./DonutChart3";
 // import DonutChart from './DonutChart'
 
 const Tokenomics = () => {
-
- //Following ChartData to be used with DonutLabels 
+  //Following ChartData to be used with DonutLabels
   // const chartData = {
   //   labels: [
   //     "Inventives 8%",
@@ -34,17 +33,15 @@ const Tokenomics = () => {
       <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide">
         Tokenomics
       </h2>
-      <p className="pt-5">
+      <p className="pt-5 md:text-center text-justify">
         Our tokenomics chart provides a comprehensive overview of the various
         aspects of our economic model, including our token supply, distribution,
         and usage
       </p>
-      <div className="justify-center flex py-4 items-center ">
-        {/* <DonutLabels data={chartData} /> */}
-        <DonutChart3 />
-        {/* <DonutChart /> */}
-        {/* <img alt="chart" src="PIECHART.png" className="w-[80%]" /> */}
+      <div className="md:flex justify-center py-4 ">
+          <DonutChart3 />
       </div>
+      
     </div>
   );
 };
