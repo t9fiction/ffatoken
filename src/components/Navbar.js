@@ -12,17 +12,17 @@ const Navbar = () => {
     <div>
       <div className="text-white md:bg-transparent hidden w-full md:h-0 md:flex flex-1 z-20">
         <div className="flex flex-row justify-between px-[100px] h-[112px] py-[41px] space-x-12 items-center flex-1 absolute">
-          <div>
+          <div className="">
             <a href="/">
               <img
                 alt="logo"
                 src="/logo/logo_transparent.png"
-                className="w-[188px]"
+                className="max-w-[200px]"
               />
             </a>
           </div>
           <div>
-            <ul className="flex flex-row space-x-9  flex-1 text-[14px]">
+            <ul className="flex flex-row space-x-9  flex-1 text-[14px] flex-wrap">
               <li className="menuLinks">
                 <a href="/">HOME</a>
               </li>
