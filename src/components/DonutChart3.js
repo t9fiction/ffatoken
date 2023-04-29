@@ -35,7 +35,7 @@ const DonutChart3 = () => {
     tooltip: {
       showColorCode: true,
     },
-    fontName: "aokupro",
+    fontName: "arial",
     fontSize: 14,
   };
 
