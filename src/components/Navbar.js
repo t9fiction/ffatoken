@@ -60,14 +60,19 @@ const Navbar = () => {
             />
           </a>
         </div>
-        <div className="text-white">
+        <div className="text-white items-center">
           {toggle ? (
             <button onClick={handleClick}>
               <RxCross1 size={35} />
             </button>
           ) : (
             <button onClick={handleClick}>
-              <RiMenuFoldLine size={35} />
+              <div className="flex flex-col space-y-1 py-3 text-right pr-1">
+                <div className="ml-4 w-2 text-white border-2"></div>
+                <div className="ml-2 w-4  text-white border-2"></div>
+                <div className="w-6 ml-0 text-white border-2"></div>
+              </div>
+              {/* <RiMenuFoldLine size={35} /> */}
             </button>
           )}
         </div>
