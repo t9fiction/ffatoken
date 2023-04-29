@@ -3,18 +3,18 @@ import Skyanimation from "./Skyanimation";
 
 const Contactus = () => {
   return (
-    <div id="contactus" className="relative bg-black opacity-90 w-full py-20 ">
+    <div id="contactus" className="relative  w-full py-20 ">
       <Skyanimation />
       {/* <img
         alt="universe"
         src="shapes.png"
         className="-z-30 absolute right-0 left-0 top-0 h-screen"
-      />
+      /> */}
       <img
         alt="universe"
-        src="contact_shapes.png"
-        className="absolute right-0 left-0 top-0 -z-10 h-screen"
-      /> */}
+        src="bg-galaxy.png"
+        className="absolute right-0 left-0 top-0 -z-50 w-full h-full"
+      />
       <div className=" mx-auto flex flex-col ">
         <div className="text-center md:px-[25%] px-12">
           <h3 className="text-primary uppercase">any questions?</h3>

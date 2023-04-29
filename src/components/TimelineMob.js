@@ -236,7 +236,7 @@ const TimelineMob = () => {
             <div class="flex flex-col items-center w-10 mr-4 md:w-24">
               <div className="">
                 <div class="flex items-center justify-center w-6 h-6 border-2 border-transparent ease-in-out duration-300 bg-primary group-hover:bg-white rounded-full">
-                  <div class="w-4 h-4 bg-white group-hover:bg-primary rounded-full group-hover:w-3 group-hover:h-3 group-hover:border-secondary ease-in-out duration-300 items-center justify-center flex border-2">
+                  <div class="w-4 h-4 bg-white group-hover:bg-primary rounded-full group-hover:border-secondary ease-in-out duration-300 items-center justify-center flex border-2">
                     <button onClick={handleDisplay}>
                       {display ? (
                         <MdKeyboardArrowUp />

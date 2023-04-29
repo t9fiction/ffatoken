@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <ul className="flex flex-row space-x-[48px]  flex-1 text-[14px]">
+            <ul className="flex flex-row space-x-9  flex-1 text-[14px]">
               <li className="menuLinks">
                 <a href="/">HOME</a>
               </li>
@@ -46,7 +46,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <button className="connectBtn flex flex-1">CONNECT WALLET</button>
+          <div>
+            <button className="connectBtn">CONNECT WALLET</button>
+          </div>
         </div>
       </div>
       <div className="absolute bg-transparent text-white h-24 flex flex-1 justify-between items-center md:hidden px-8 left-0 right-0">
