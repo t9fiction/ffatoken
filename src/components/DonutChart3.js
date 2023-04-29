@@ -4,7 +4,6 @@ import { useMediaQuery } from "@material-ui/core";
 
 const DonutChart3 = () => {
   const pieOptions = {
-    title: "",
     pieHole: 0.5,
     slices: [
       {
@@ -31,13 +30,17 @@ const DonutChart3 = () => {
         fontSize: 14,
         fontName: "arial",
       },
+      maxLines: 100,
     },
-    
     tooltip: {
       showColorCode: true,
     },
     fontName: "arial",
     fontSize: 12,
+    chartArea: {
+      width: "80%",
+      height: "80%",
+    },
   };
 
   return (

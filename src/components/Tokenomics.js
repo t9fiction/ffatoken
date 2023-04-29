@@ -38,7 +38,7 @@ const Tokenomics = () => {
         aspects of our economic model, including our token supply, distribution,
         and usage
       </p>
-      <div className="md:flex justify-center py-4 ">
+      <div className="md:flex justify-center py-4 mt-6 md:mt-0">
           <DonutChart3 />
       </div>
       
