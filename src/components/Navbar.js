@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { RiMenuFoldLine } from "react-icons/ri";
 import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {

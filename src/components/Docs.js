@@ -4,7 +4,7 @@ import { HiOutlineDocumentText } from "react-icons/hi";
 
 const Docs = () => {
   return (
-      <div className=" mx-auto flex flex-col text-center bg-[#51bce9] z-0 relative">
+      <div id="docs" className=" mx-auto flex flex-col text-center bg-[#51bce9] z-0 relative">
         <div className="py-28 md:px-[25%] px-12">
           <h2 className="text-4xl py-4 font-extralight font-aokupro tracking-wide text-white z-10">
             documents

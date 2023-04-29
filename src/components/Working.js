@@ -9,12 +9,12 @@ const Working = () => {
             <img
               alt=""
               src="maskgroup.png"
-              className="w-[320px] h-[360px] relative top-16 -right-11 md:top-32 border-4 border-white md:right-0 md:left-24"
+              className="w-[320px] h-[360px] md:h-auto relative top-16 -right-11 md:top-32 border-4 border-white md:right-0 md:left-24"
             />
             <img
               alt=""
               src="image8.png"
-              className="w-[320px] border-4 border-white h-[360px] relative -left-6 -top-20 sm:-top-28 md:top-0 md:right-28 md:left-0 md:bottom-16"
+              className="w-[320px] md:w-[90%] border-4 border-white h-[360px] md:h-[90%] relative -left-6 -top-20 sm:-top-28 md:top-0 md:right-28 md:left-0 md:bottom-16"
             />
           </div>
           <div className="flex flex-col md:w-3/5 w-full space-y-4 mt-12 md:mt-20">

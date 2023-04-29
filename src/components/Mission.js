@@ -2,12 +2,12 @@ import React from "react";
 
 const Mission = () => {
   return (
-    <div className="bg-white">
+    <div id="mission" className="bg-white">
       <div className="md:px-8 py-16 mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:px-20 px-8 space-y-4 md:ml-8 justify-center flex flex-col md:justify-start">
           <h3 className="uppercase text-primary md:text-left text-center text-xl md:text-base">Farming For All</h3>
           <h1 className="font-aokupro text-3xl md:text-left text-center">Our mission</h1>
-          <p className="md:text-[12px] text-base text-justify pt-6 pb-2">
+          <p className="text-base text-justify pt-6 pb-2">
             We aim to increase financial inclusion and provide accessible
             investment opportunities, so more people are able to participate in
             the financial system and build wealth, which can help to reduce
@@ -21,8 +21,8 @@ const Mission = () => {
             Invest Now
           </button>
         </div>
-        <div className="pt-4">
-          <img alt="mission" src="/mission.png" className="h-80" />
+        <div className="md:px-4 md:w-1/2">
+          <img alt="mission" src="/mission.png" className="w-screen md:h-[40%]" />
         </div>
       </div>
     </div>

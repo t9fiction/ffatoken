@@ -28,7 +28,7 @@ const Tokenomics = () => {
   // };
 
   return (
-    <div className=" px-[15%] mx-auto flex flex-col text-center bg-white z-10">
+    <div id="tokenomics" className=" px-[15%] mx-auto flex flex-col text-center bg-white z-10">
       <h3 className="text-primary uppercase">distribution</h3>
       <h2 className="text-4xl uppercase py-4 font-semibold font-aokupro tracking-wide">
         Tokenomics

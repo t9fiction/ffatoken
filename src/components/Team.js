@@ -34,7 +34,7 @@ const Team = () => {
     setTeam1(false);
   };
   return (
-    <div className="flex items-center justify-center bg-white pb-12">
+    <div id="team" className="flex items-center justify-center bg-white pb-12">
       <div className="flex flex-col">
         <div className="flex flex-col">
           <div className="container max-w-7xl px-4">

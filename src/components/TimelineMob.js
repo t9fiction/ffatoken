@@ -250,7 +250,7 @@ const TimelineMob = () => {
             </div>
             <div>
               <p class="group-hover:text-white ease-in-out duration-300 px-0  text-sm  text-primary justify-start underline">
-                {display ? <a onClick={handleDisplay}>See Less</a> : <a href="#">See All</a>}
+                {display ? <a onClick={handleDisplay}>See Less</a> : <a onClick={handleDisplay}>See All</a>}
               </p>
             </div>
           </div>

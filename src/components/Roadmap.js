@@ -6,7 +6,7 @@ import TimelineMob from "./TimelineMob";
 
 const Roadmap = () => {
   return (
-    <div className="relative w-full ">
+    <div id="roadmap" className="relative w-full ">
       <img
         alt="universe"
         src="universe.png"

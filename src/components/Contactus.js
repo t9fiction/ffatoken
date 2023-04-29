@@ -3,7 +3,7 @@ import Skyanimation from "./Skyanimation";
 
 const Contactus = () => {
   return (
-    <div className="relative bg-black opacity-90 w-full py-20 ">
+    <div id="contactus" className="relative bg-black opacity-90 w-full py-20 ">
       <Skyanimation />
       {/* <img
         alt="universe"
