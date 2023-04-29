@@ -29,6 +29,7 @@ const DonutChart3 = () => {
       textStyle: {
         color: "233238",
         fontSize: 14,
+        fontName: "arial",
       },
     },
     
@@ -36,7 +37,7 @@ const DonutChart3 = () => {
       showColorCode: true,
     },
     fontName: "arial",
-    fontSize: 14,
+    fontSize: 12,
   };
 
   return (
