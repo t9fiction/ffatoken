@@ -6,11 +6,11 @@ import TimelineMob from "./TimelineMob";
 
 const Roadmap = () => {
   return (
-    <div className="relative md:h-[1000px] ">
+    <div className="relative w-full ">
       <img
         alt="universe"
         src="universe.png"
-        className="-z-30 absolute right-0 left-0 h-full"
+        className="-z-30 absolute right-0 left-0 h-full w-full"
       />
       {/* <img
         alt="universe"
@@ -41,7 +41,7 @@ const Roadmap = () => {
         </div>
         {/* <Timeline /> */}
       </div>
-      <div className="-z-20 relative">
+      <div className="-z-20 relative ">
         <Design />
       </div>
     </div>
