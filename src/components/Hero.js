@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="relative h-[430px] sm:h-[424px] flex-1 md:h-screen overflow-hidden -z-10 border-primary border-b-8">
-      <video className="absolute -z-10 sm:w-full mobile-video desktop-video" autoPlay loop muted playsInLine>
+      <video className="absolute -z-10 sm:w-full mobile-video desktop-video" preload="auto" loop muted playsInLine>
         <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
         {/* <source
           src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
@@ -11,7 +11,7 @@ const Hero = () => {
         /> */}
         {/* <div className="h-full justify-center items-center rounded-full">
           <img
-            src={"./images/pixelfarm.gif"}
+            src={"./images/house.gif"}
             alt=""
             className="w-[40%] relative rounded-full left-0 right-0 sm:-bottom-10 -bottom-5 md:-bottom-14 -p-20  mx-auto -z-10"
             // className="w-[50%] relative rounded-full left-0 right-0 bottom-40  mx-auto -z-10"
