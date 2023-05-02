@@ -22,29 +22,29 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <ul className="flex flex-row space-x-9  flex-1 text-[14px] flex-wrap">
-              <li className="menuLinks">
+            <div className="flex flex-row space-x-9  flex-1 text-[14px] flex-wrap">
+              <div className="menuLinks">
                 <a href="/">HOME</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#about">ABOUT US</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#mission">MISSION</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#tokenomics">TOKENOMICS</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#team">TEAM</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#docs">DOCS</a>
-              </li>
-              <li className="menuLinks">
+              </div>
+              <div className="menuLinks">
                 <a href="#contactus">CONTACT US</a>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
           <div>
             <button className="connectBtn">CONNECT WALLET</button>
