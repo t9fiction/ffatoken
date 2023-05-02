@@ -17,10 +17,10 @@ const Working = () => {
               className="w-[320px] md:w-[90%] border-4 border-white h-[360px] md:h-[90%] relative -left-6 -top-20 sm:-top-28 md:top-0 md:right-28 md:left-0 md:bottom-16"
             />
           </div>
-          <div className="flex flex-col md:w-3/5 w-full space-y-4 mt-12 md:mt-20">
+          <div className="flex flex-col md:w-3/5 w-full space-y-4 md:space-y-3 mt-12 md:mt-20 md:overflow-auto md:h-[440px]">
             <p className="uppercase text-primary text-center md:text-left">more details</p>
             <h1 className="font-aokupro text-2xl text-center md:text-left md:text-3xl">How does it work?</h1>
-            <p className="text-[16px] pt-2 sm:pt-4 md:pt-5 text-justify md:text-left">
+            <p className="text-[16px] pt-2 sm:pt-3 md:pt-4 text-justify md:text-left">
               In our agricultural projects, we follow a careful process to
               identify the most suitable lands for farming. Our specialists
               conduct complete research and analysis to determine which crop
