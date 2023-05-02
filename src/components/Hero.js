@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="relative h-[430px] sm:h-[424px] flex-1 md:h-screen overflow-hidden -z-10 border-primary border-b-8">
       <video className="absolute -z-10 sm:w-full mobile-video desktop-video" autoPlay loop muted>
-        <source src="/tree-low.mp4" type="video/mp4" />
+        <source src="/twittertree.mp4" type="video/mp4" />
         {/* <source
           src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
           type="video/mp4"
