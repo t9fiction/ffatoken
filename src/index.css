@@ -41,6 +41,11 @@
     @apply w-full h-[60vh] object-cover;
   }
 }
+@media (min-width: 641px) {
+  .desktop-video {
+    @apply w-full h-screen object-cover;
+  }
+}
 
 .bg-black-gradient {
   background: linear-gradient(
