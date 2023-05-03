@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="text-white md:bg-transparent hidden w-full md:h-0 md:flex flex-1 z-20">
+      <div className="text-white md:bg-transparent hidden w-full md:h-0 md:flex flex-1 z-20 justify-center ">
         <div className="flex flex-row justify-between px-[100px] h-[112px] py-[41px] space-x-12 items-center flex-1 absolute">
           <div className="">
             <a href="/">
