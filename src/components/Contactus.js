@@ -69,9 +69,9 @@ const Contactus = () => {
               </div>
             </div>
             <div className="md:flex md:items-center ">
-              <div className="flex mx-auto px-3 w-full">
-                <button className="py-2 text-[13px] font-semibold px-10 rounded-none border-2 border-primary w-full md:w-40 hover:text-primary duration-300 ease-in-out uppercase bg-primary text-white hover:bg-white hover:border-primary">
-                  Submit
+              <div className="flex mx-auto px-3 w-full text-center justify-center">
+                <button className="py-2 text-sm font-semibold px-10 rounded-none border-2 border-primary w-full md:w-40 hover:text-primary duration-300 ease-in-out uppercase bg-primary text-white hover:bg-white hover:border-primary">
+                  SEND
                 </button>
               </div>
             </div>
