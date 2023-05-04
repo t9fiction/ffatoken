@@ -18,9 +18,9 @@ const Navbar3 = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      const containerWidth = document.querySelector(".nav-container").offsetWidth;
-      const linksWidth = document.querySelector(".nav-links").offsetWidth;
-      const dropdownWidth = document.querySelector(".dropdown").offsetWidth;
+      const containerWidth = document.querySelector(".nav-container")?.offsetWidth;
+      const linksWidth = document.querySelector(".nav-links")?.offsetWidth;
+      const dropdownWidth = document.querySelector(".dropdown")?.offsetWidth;
 
       if (containerWidth < linksWidth + dropdownWidth) {
         const lastLink = links[links.length - 1];

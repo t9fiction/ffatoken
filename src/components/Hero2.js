@@ -12,10 +12,10 @@ const Hero2 = () => {
   }, []);
 
   return (
-    <div className="relative h-[430px] sm:h-[424px] flex-1 md:h-screen overflow-hidden -z-10 border-primary border-b-8">
+    <div className="relative h-[408px] sm:h-[424px] flex-1 md:h-screen overflow-hidden -z-10 border-primary border-b-8">
       <video
         ref={videoRef}
-        className="absolute -z-10 sm:w-full mobile-video desktop-video"
+        className="absolute -z-10 sm:w-full mobile-video desktop-video "
         autoPlay
         loop
         muted
