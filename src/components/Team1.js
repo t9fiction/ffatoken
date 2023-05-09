@@ -28,7 +28,7 @@ const Team1 = () => {
                       alt="Miguel-Cabeza"
                     />
                   </a>
-                  <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
+                  <div className="absolute top-0 left-10 pr-20 md:pr-10 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4 md:px-0">
                       <span className="font-bold">Miguel Cabeza, Founder:</span>{" "}
                       is an accomplished entrepreneur and business leader with
@@ -93,7 +93,7 @@ const Team1 = () => {
                       alt="Martín-Orbegoso"
                     />
                   </a>
-                  <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
+                  <div className="absolute top-0 left-10 pr-20 md:pr-10 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4 md:px-0">
                       <span className="font-semibold">
                         Martin Orbegoso, CEO:
@@ -162,7 +162,7 @@ const Team1 = () => {
                       alt="Martin-Gavidia"
                     />
                   </a>
-                  <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
+                  <div className="absolute top-0 left-10 pr-20 md:pr-10 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4 md:px-0">
                       <span className="font-semibold">
                         Martin Gavidia, Head of Agriculture:
@@ -229,7 +229,7 @@ const Team1 = () => {
                       alt="Manuel-Cabeza"
                     />
                   </a>
-                  <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
+                  <div className="absolute top-0 left-10 pr-20 md:pr-10 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4 md:px-0">
                       <span className="font-semibold">Manuel Cabeza, COO:</span>{" "}
                       is a skilled architect with 15 years of experience in
@@ -295,7 +295,7 @@ const Team1 = () => {
                       alt="Anisa-Orbegoso"
                     />
                   </a>
-                  <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
+                  <div className="absolute top-0 left-10 pr-20 md:pr-10 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4 md:px-0">
                       <span className="font-semibold">Anisa Orbegozo, HR:</span>{" "}
                       is a highly accomplished Human Resources Manager and
