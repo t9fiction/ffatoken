@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaFacebookF, FaLinkedin } from "react-icons/fa";
 
 const Team1 = () => {
   return (
@@ -21,11 +21,11 @@ const Team1 = () => {
             <div className="flex flex-wrap flex-row">
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
                 <div className="relative flex flex-col">
-                  <a href="#" className="mx-auto">
+                  <a href="#" className="mx-auto b-white b-2 items-center py-8">
                     <img
-                      className="w-full drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="miguel.png"
-                      alt="Miguel"
+                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="Miguel-Cabeza.jpg"
+                      alt="Miguel-Cabeza"
                     />
                   </a>
                   <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
@@ -70,9 +70,14 @@ const Team1 = () => {
                       </div>
                     </a>
 
-                    <a href="#" className="">
+                    <a
+                      href="https://www.linkedin.com/in/miguel-cabeza-24618961/"
+                      target="_blank"
+                      className=""
+                      rel="noreferrer"
+                    >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
-                        <FaInstagram className="z-10" />
+                        <FaLinkedin className="z-10" />
                       </div>
                     </a>
                   </div>
@@ -80,12 +85,12 @@ const Team1 = () => {
               </div>
 
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
-                <div className="relative flex flex-col">
+                <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-full drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="martin.png"
-                      alt="martin"
+                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="Martín-Orbegoso.jpg"
+                      alt="Martín-Orbegoso"
                     />
                   </a>
                   <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
@@ -134,9 +139,14 @@ const Team1 = () => {
                       </div>
                     </a>
 
-                    <a href="#" className="">
+                    <a
+                      href="https://www.linkedin.com/in/mart%C3%ADn-orbegoso-cabeza-818141203/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className=""
+                    >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
-                        <FaInstagram className="z-10" />
+                        <FaLinkedin className="z-10" />
                       </div>
                     </a>
                   </div>
@@ -144,12 +154,12 @@ const Team1 = () => {
               </div>
 
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
-                <div className="relative flex flex-col">
+                <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-full drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="miguel.png"
-                      alt="Miguel"
+                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="Martin-Gavidia.jpg"
+                      alt="Martin-Gavidia"
                     />
                   </a>
                   <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
@@ -195,9 +205,14 @@ const Team1 = () => {
                       </div>
                     </a>
 
-                    <a href="#" className="">
+                    <a
+                      href="https://www.linkedin.com/in/mart%C3%ADn-gavidia-layza-9a380355/"
+                      target="_blank"
+                      className=""
+                      rel="noreferrer"
+                    >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
-                        <FaInstagram className="z-10" />
+                        <FaLinkedin className="z-10" />
                       </div>
                     </a>
                   </div>
@@ -206,27 +221,27 @@ const Team1 = () => {
 
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
                 {/* <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"> */}
-                <div className="relative flex flex-col">
+                <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-full drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="gavidia.png"
-                      alt="gavidia"
+                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="Manuel-Cabeza.jpg"
+                      alt="Manuel-Cabeza"
                     />
                   </a>
                   <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4">
                       <span className="font-semibold">Manuel Cabeza, COO:</span>{" "}
-                      Manuel Cabeza is a skilled architect with 15 years of
-                      experience in logistics and operations management within
-                      the restaurant chain industry. His unique background in
-                      architecture, paired with his expertise in food and
-                      hospitality, has enabled him to design innovative and
-                      functional spaces that cater to both client needs and
-                      operational requirements. Throughout his career, Manuel
-                      has demonstrated an unwavering commitment to excellence
-                      and continuous improvement, establishing himself as a
-                      trusted expert in his field.
+                      is a skilled architect with 15 years of experience in
+                      logistics and operations management within the restaurant
+                      chain industry. His unique background in architecture,
+                      paired with his expertise in food and hospitality, has
+                      enabled him to design innovative and functional spaces
+                      that cater to both client needs and operational
+                      requirements. Throughout his career, Manuel has
+                      demonstrated an unwavering commitment to excellence and
+                      continuous improvement, establishing himself as a trusted
+                      expert in his field.
                     </p>
                   </div>
                 </div>
@@ -256,9 +271,14 @@ const Team1 = () => {
                       </div>
                     </a>
 
-                    <a href="#" className="">
+                    <a
+                      href="https://www.linkedin.com/in/manuel-enrique-cabeza-valdivia-43b9b516a/"
+                      target="_blank"
+                      className=""
+                      rel="noreferrer"
+                    >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
-                        <FaInstagram className="z-10" />
+                        <FaLinkedin className="z-10" />
                       </div>
                     </a>
                   </div>
@@ -267,38 +287,36 @@ const Team1 = () => {
 
               <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
                 {/* <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"> */}
-                <div className="relative flex flex-col">
+                <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-full drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="gavidia.png"
-                      alt="gavidia"
+                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="Anisa-Orbegoso.jpg"
+                      alt="Anisa-Orbegoso"
                     />
                   </a>
                   <div className="absolute top-0 left-10 pr-20 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
                     <p className="text-[12px] text-justify px-4">
-                      <span className="font-semibold">Manuel Cabeza, COO:</span>{" "}
-                      Manuel Cabeza is a skilled architect with 15 years of
-                      experience in logistics and operations management within
-                      the restaurant chain industry. His unique background in
-                      architecture, paired with his expertise in food and
-                      hospitality, has enabled him to design innovative and
-                      functional spaces that cater to both client needs and
-                      operational requirements. Throughout his career, Manuel
-                      has demonstrated an unwavering commitment to excellence
-                      and continuous improvement, establishing himself as a
-                      trusted expert in his field.
+                      <span className="font-semibold">Anisa Orbegozo, HR:</span>{" "}
+                      is a highly accomplished Human Resources Manager and
+                      attorney, boasting an impressive 22 years of experience in
+                      the public sector. Her extensive background and expertise
+                      in law and human resources management have positioned her
+                      as a respected leader in her field. Anisa's dedication to
+                      navigating complex legal issues and fostering a positive
+                      work environment has earned her a reputation for
+                      excellence throughout her distinguished career.
                     </p>
                   </div>
                 </div>
 
                 <div className="text-center">
                   <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
-                    Manuel Cabeza
+                    Anisa Orbegozo
                   </h1>
 
                   <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
-                    COO
+                    HR
                   </div>
 
                   <div
@@ -317,9 +335,12 @@ const Team1 = () => {
                       </div>
                     </a>
 
-                    <a href="#" className="">
+                    <a
+                      href="https://www.linkedin.com/in/anisa-orbegoso-cabeza-8b533b47/"
+                      className=""
+                    >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
-                        <FaInstagram className="z-10" />
+                        <FaLinkedin className="z-10" />
                       </div>
                     </a>
                   </div>
