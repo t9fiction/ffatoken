@@ -285,7 +285,7 @@ const Team1 = () => {
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group sm:mx-auto">
                 {/* <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"> */}
                 <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
