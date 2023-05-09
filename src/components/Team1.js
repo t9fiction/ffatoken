@@ -19,12 +19,12 @@ const Team1 = () => {
             </div>
 
             <div className="flex flex-wrap flex-row">
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
                 <div className="relative flex flex-col">
                   <a href="#" className="mx-auto b-white b-2 items-center py-8">
                     <img
-                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="Miguel-Cabeza.jpg"
+                      className="md:w-48 w-[220px] border-white border-4 drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="MiguelCabeza-edited.jpg"
                       alt="Miguel-Cabeza"
                     />
                   </a>
@@ -58,7 +58,7 @@ const Team1 = () => {
                     className="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300 space-x-3 mt-2"
                   >
-                    <a href="#" className="">
+                    {/* <a href="#" className="">
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaFacebookF className="z-10" />
                       </div>
@@ -68,7 +68,7 @@ const Team1 = () => {
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaTwitter className="z-10" />
                       </div>
-                    </a>
+                    </a> */}
 
                     <a
                       href="https://www.linkedin.com/in/miguel-cabeza-24618961/"
@@ -84,12 +84,12 @@ const Team1 = () => {
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
                 <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="Martín-Orbegoso.jpg"
+                      className="lg:w-48 w-[220px] border-white border-4 drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="MartínOrbegoso-edited.jpg"
                       alt="Martín-Orbegoso"
                     />
                   </a>
@@ -127,7 +127,7 @@ const Team1 = () => {
                     className="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300 space-x-3 mt-2"
                   >
-                    <a href="#" className="">
+                    {/* <a href="#" className="">
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaFacebookF className="z-10" />
                       </div>
@@ -137,7 +137,7 @@ const Team1 = () => {
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaTwitter className="z-10" />
                       </div>
-                    </a>
+                    </a> */}
 
                     <a
                       href="https://www.linkedin.com/in/mart%C3%ADn-orbegoso-cabeza-818141203/"
@@ -153,12 +153,12 @@ const Team1 = () => {
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
                 <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="Martin-Gavidia.jpg"
+                      className="md:w-48 w-[220px] border-white border-4 drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="MartinGavidia-edited.jpg"
                       alt="Martin-Gavidia"
                     />
                   </a>
@@ -193,7 +193,7 @@ const Team1 = () => {
                     className="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300 space-x-3 mt-2"
                   >
-                    <a href="#" className="">
+                    {/* <a href="#" className="">
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaFacebookF className="z-10" />
                       </div>
@@ -203,7 +203,7 @@ const Team1 = () => {
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaTwitter className="z-10" />
                       </div>
-                    </a>
+                    </a> */}
 
                     <a
                       href="https://www.linkedin.com/in/mart%C3%ADn-gavidia-layza-9a380355/"
@@ -219,13 +219,13 @@ const Team1 = () => {
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
                 {/* <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"> */}
                 <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="Manuel-Cabeza.jpg"
+                      className="md:w-48 w-[220px] border-white border-4 drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="ManuelCabeza-edited.jpg"
                       alt="Manuel-Cabeza"
                     />
                   </a>
@@ -259,7 +259,7 @@ const Team1 = () => {
                     className="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300 space-x-3 mt-2"
                   >
-                    <a href="#" className="">
+                    {/* <a href="#" className="">
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaFacebookF className="z-10" />
                       </div>
@@ -269,7 +269,7 @@ const Team1 = () => {
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaTwitter className="z-10" />
                       </div>
-                    </a>
+                    </a> */}
 
                     <a
                       href="https://www.linkedin.com/in/manuel-enrique-cabeza-valdivia-43b9b516a/"
@@ -285,13 +285,13 @@ const Team1 = () => {
                 </div>
               </div>
 
-              <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4 group">
+              <div className="w-full md:w-6/12 lg:w-[20%] mb-6 px-6 sm:px-6 lg:px-4 group">
                 {/* <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4"> */}
                 <div className="relative flex flex-col items-center py-8">
                   <a href="#" className="mx-auto">
                     <img
-                      className="w-[220px] border-white border-4 h-[235px] drop-shadow-md opacity-100 group-hover:opacity-0"
-                      src="Anisa-Orbegoso.jpg"
+                      className="md:w-48 w-[220px] border-white border-4 drop-shadow-md opacity-100 group-hover:opacity-0"
+                      src="AnisaOrbegoso-edited.jpg"
                       alt="Anisa-Orbegoso"
                     />
                   </a>
@@ -323,7 +323,7 @@ const Team1 = () => {
                     className="flex items-center justify-center hover:opacity-100
                                 transition-opacity duration-300 space-x-3 mt-2"
                   >
-                    <a href="#" className="">
+                    {/* <a href="#" className="">
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaFacebookF className="z-10" />
                       </div>
@@ -333,11 +333,13 @@ const Team1 = () => {
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaTwitter className="z-10" />
                       </div>
-                    </a>
+                    </a> */}
 
                     <a
                       href="https://www.linkedin.com/in/anisa-orbegoso-cabeza-8b533b47/"
+                      target="_blank"
                       className=""
+                      rel="noreferrer"
                     >
                       <div className=" w-8 h-8 bg-gray-50 rounded-full text-primary flex hover:text-white ease-in-out duration-300  hover:bg-primary items-center justify-center">
                         <FaLinkedin className="z-10" />
