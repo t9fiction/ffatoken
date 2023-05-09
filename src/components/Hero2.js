@@ -36,7 +36,7 @@ const Hero2 = () => {
         </h1>
         <p className="text-center text-white text-[11px] sm:text-[16px]  md:text-[20px] md:pt-2 pt-1 px-[10%] sm:px[10%] md:px-20">
           Connecting investors with farmers and improving the needs of both
-          through the use of Tokenization
+          through the use of tokenization
         </p>
       </div>
     </div>

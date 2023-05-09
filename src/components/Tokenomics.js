@@ -36,7 +36,7 @@ const Tokenomics = () => {
       <p className="pt-5 md:text-center text-justify">
         Our tokenomics chart provides a comprehensive overview of the various
         aspects of our economic model, including our token supply, distribution,
-        and usage
+        and usage.
       </p>
       <div className="md:flex justify-center py-4 mt-6 md:mt-0">
           <DonutChart3 />

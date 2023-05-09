@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="bg-white w-8 h-8 rounded-full text-center items-center flex justify-center">
             <a
               className=" text-primary"
-              href="http://farmingforall.io/"
+              href="https://twitter.com/Farmingforallio"
               target="_blank"
               rel="noreferrer"
             >
