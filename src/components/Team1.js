@@ -29,7 +29,7 @@ const Team1 = () => {
                     />
                   </a>
                   <div className="absolute top-0  md:px-0 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
-                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-72">
+                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-64 overflow-auto">
                       <span className="font-bold">Miguel Cabeza, Founder:</span>{" "}
                       is an accomplished entrepreneur and business leader with
                       over 15 years of experience in telecommunication,
@@ -94,7 +94,7 @@ const Team1 = () => {
                     />
                   </a>
                   <div className="absolute top-0  md:px-0 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
-                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-72">
+                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-64 overflow-auto">
                       <span className="font-semibold">
                         Martin Orbegoso, CEO:
                       </span>{" "}
@@ -163,7 +163,7 @@ const Team1 = () => {
                     />
                   </a>
                   <div className="absolute top-0  md:px-0 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
-                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-72">
+                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-64 overflow-auto">
                       <span className="font-semibold">
                         Martin Gavidia, Head of Agriculture:
                       </span>{" "}
@@ -230,7 +230,7 @@ const Team1 = () => {
                     />
                   </a>
                   <div className="absolute top-0  md:px-0 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
-                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-72">
+                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-64 overflow-auto">
                       <span className="font-semibold">Manuel Cabeza, COO:</span>{" "}
                       is a skilled architect with 15 years of experience in
                       logistics and operations management within the restaurant
@@ -296,7 +296,7 @@ const Team1 = () => {
                     />
                   </a>
                   <div className="absolute top-0  md:px-0 w-full h-full bg-white bg-opacity-80 flex flex-col items-center justify-center duration-300 opacity-0 group-hover:opacity-100">
-                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-72">
+                    <p className="text-[12px] text-justify px-4 md:px-0 md:h-64 overflow-auto">
                       <span className="font-semibold">Anisa Orbegozo, HR:</span>{" "}
                       is a highly accomplished Human Resources Manager and
                       attorney, boasting an impressive 22 years of experience in
