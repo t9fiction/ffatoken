@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="text-white md:bg-transparent hidden w-full md:h-0 md:flex flex-1 z-20 justify-center ">
-        <div className="flex flex-row justify-between px-[100px] h-[112px] py-[41px] space-x-12 items-center flex-1 absolute">
+      <div className="text-white md:bg-transparent hidden w-full md:h-0 md:flex flex-1 z-20">
+        <div className="flex flex-row  px-[40px] h-[112px] py-[41px]  items-center flex-1 justify-between">
           <div className="">
             <a href="/">
               <img
@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <div className="flex flex-row space-x-9  flex-1 text-[14px] flex-wrap">
+            <div className="flex flex-row space-x-4  flex-1 text-[14px] flex-wrap">
               <div className="menuLinks">
                 <a href="/">HOME</a>
               </div>
