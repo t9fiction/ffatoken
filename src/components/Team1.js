@@ -46,11 +46,11 @@ const Team1 = () => {
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
+                  <h1 className="text-[#212121] opacity-100 group-hover:opacity-0">
                     Miguel Cabeza
                   </h1>
 
-                  <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
+                  <div className="text-[#616161] opacity-100 group-hover:opacity-0">
                     Founder
                   </div>
 
@@ -115,11 +115,11 @@ const Team1 = () => {
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
+                  <h1 className="text-[#212121] opacity-100 group-hover:opacity-0">
                     Martin Orbegoso
                   </h1>
 
-                  <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
+                  <div className="text-[#616161] opacity-100 group-hover:opacity-0">
                     CEO
                   </div>
 
@@ -181,11 +181,11 @@ const Team1 = () => {
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
+                  <h1 className="text-[#212121] opacity-100 group-hover:opacity-0">
                     Martin Gavidia
                   </h1>
 
-                  <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
+                  <div className="text-[#616161] opacity-100 group-hover:opacity-0">
                     Head of Agriculture
                   </div>
 
@@ -247,11 +247,11 @@ const Team1 = () => {
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
+                  <h1 className="text-[#212121] opacity-100 group-hover:opacity-0">
                     Manuel Cabeza
                   </h1>
 
-                  <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
+                  <div className="text-[#616161] opacity-100 group-hover:opacity-0">
                     COO
                   </div>
 
@@ -311,11 +311,11 @@ const Team1 = () => {
                 </div>
 
                 <div className="text-center">
-                  <h1 className="text-[#212121] font-semibold opacity-100 group-hover:opacity-0">
+                  <h1 className="text-[#212121] opacity-100 group-hover:opacity-0">
                     Anisa Orbegozo
                   </h1>
 
-                  <div className="text-[#616161] font-light opacity-100 group-hover:opacity-0">
+                  <div className="text-[#616161] opacity-100 group-hover:opacity-0">
                     HR
                   </div>
 
